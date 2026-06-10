@@ -3,11 +3,15 @@ let modoEscuro = false;
 
         function alternarCores() {
             if (modoEscuro) {
-                document.body.style.backgroundColor = "#518ac8";
+                document.body.style.backgroundColor = "#81b6c8";
                 document.body.style.backgroundColor = "#0f172a";
+                
             } else {
                 document.body.style.backgroundColor = "#0f172a";
-                document.body.style.backgroundColor = "#518ac8";
+                document.body.style.backgroundColor = "#81b6c8";
+
+
+                
             }
 
             modoEscuro = !modoEscuro;
