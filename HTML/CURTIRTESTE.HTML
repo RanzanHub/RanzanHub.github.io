@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Botão Like</title>
+
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #f0f0f0;
+      font-family: Arial, sans-serif;
+    }
+
+    .like-btn {
+      padding: 15px 30px;
+      font-size: 20px;
+      border: none;
+      border-radius: 12px;
+      background: #ddd;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .like-btn.liked {
+      background: #ff4d6d;
+      color: white;
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+
+  <button class="like-btn" onclick="toggleLike(this)">
+    ❤️ Like
+  </button>
+
+  <script>
+    function toggleLike(botao) {
+      botao.classList.toggle("liked");
+
+      if (botao.classList.contains("liked")) {
+        botao.innerHTML = "💖 Curtido";
+      } else {
+        botao.innerHTML = "❤️ Like";
+      }
+    }
+  </script>
+
+</body>
+</html>

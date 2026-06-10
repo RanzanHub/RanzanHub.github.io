@@ -1,0 +1,70 @@
+body{
+    background-color: whitesmoke;
+    font-family: "Times New Roman", serif;
+    background-color: #eee;
+    margin: 40px;
+    display: inline-grid;
+}
+
+    h1 {
+        font-size: 48px;
+        margin-bottom: 5px;
+    }
+    .subtitulo {
+        font-style: italic;
+        color: #333;
+    }
+    mark {
+        background-color: yellow;
+    }
+    h2 {
+        font-size: 36px;
+        margin-top: 30px;
+    }
+    ul {
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    ol {
+        font-size: 20px;
+    }
+    .citacao {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    
+
+    .like-btn {
+      padding: 15px 30px;
+      font-size: 20px;
+      border: none;
+      border-radius: 12px;
+      background: #ddd;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .like-btn.liked {
+      background: #ff4d6d;
+      color: white;
+      transform: scale(1.1);
+    }
+button#amais{
+    background-color: #1e293b;
+    color: #38bdf8 ;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+button#amenos{
+    background-color: #1e293b;
+    color: #38bdf8 ;
+    position: fixed;
+    bottom: 2px;
+    right: 20px;
+}
+img#mascote{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}

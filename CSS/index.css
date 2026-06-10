@@ -1,0 +1,50 @@
+a:link{
+   color: #1a0ecd;
+   background-color: black;
+   text-align: center;
+}
+a:hover{
+    color: blueviolet;
+    background-color: blueviolet;
+    text-align: center;
+}
+body {
+            font-family: Arial, sans-serif;
+            background-color: #0f172a;
+            color: #e2e8f0;
+            margin: 0;
+            padding: 0;
+            display: inline-grid;
+        }
+
+iframe {
+  text-align: center;
+}
+
+  button#amais{
+    background-color: #1e293b;
+    color: #38bdf8 ;
+    position: fixed;
+    top: 2px;
+    right: 20px;
+}
+button#amenos{
+    background-color: #1e293b;
+    color: #38bdf8 ;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+button#modoESCURO{
+    background-color: #1e293b;
+    color: #38bdf8 ;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+}
+img#mascote{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}

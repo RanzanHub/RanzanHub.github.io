@@ -1,0 +1,23 @@
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #0f172a;
+    color: #e2e8f0;
+    margin: 0;
+    padding: 0;
+    display: inline-grid;
+}
+     button#amais{
+    background-color: #1e293b;
+    color: #38bdf8 ;
+    position: fixed;
+    top: 2px;
+    right: 20px;
+}
+button#amenos{
+    background-color: #1e293b;
+    color: #38bdf8 ;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}

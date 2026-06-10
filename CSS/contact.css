@@ -1,0 +1,17 @@
+body {
+      
+      display: inline-grid;
+        }
+h4{
+ color: black;
+ background-color: blanchedalmond;
+}
+p{
+   color:black;
+   background-color: yellowgreen;
+}
+img{
+   position: fixed;
+   top: 20px;
+   right: 20px;
+}
